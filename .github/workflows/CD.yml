@@ -7,7 +7,7 @@ on:
       - completed
 
 jobs:
-  start:
+  starts:
     runs-on: ['self-hosted', 'node_53']
 
     steps:
