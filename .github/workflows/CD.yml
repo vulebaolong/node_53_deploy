@@ -8,7 +8,7 @@ on:
 
 jobs:
   start:
-    runs-on: node_53
+    runs-on: ['self-hosted', 'node_53']
 
     steps:
       - name: Dừng container cũ
